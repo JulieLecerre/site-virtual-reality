@@ -1,0 +1,264 @@
+body {
+	display: flex;
+	margin-right: none;
+}
+
+
+.boutonHeader {
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	top: 60px;
+	left: 900px;
+	cursor: pointer;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-thickness: 3px;
+}
+
+.boutonAbout {
+	position: absolute;
+	left: 13px;
+}
+
+.boutonCareers {
+	position: absolute;
+	left: 59px;
+}
+
+.boutonEvents {
+	position: absolute;
+	left: 115px;
+}
+
+.boutonProducts {
+	position: absolute;
+	left: 165px;
+}
+
+.boutonSupport {
+	position: absolute;
+	left: 225px;
+}
+
+
+.header {
+	height: 650px;
+	width: 1440px;
+	background-image: url(images/image-hero.jpg);
+}
+
+.logo1 {
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+
+.rectangle1 {
+	height: 340px;
+	width: 660px;
+	border-style: solid;
+	border-color: white;
+	position: absolute;
+	top: 180px;
+	left: 150px;
+}
+
+.texteHeader {
+	margin-top: 55px;
+	margin-left: 35px;
+	margin-bottom: 55px;
+	color: white;
+	font-size: 77px;
+	font-family: Josefin Sans;
+	font-style: normal;
+}
+
+.texteExperiences {
+	position: absolute;
+	top: 75px;
+}
+
+.texteThat {
+	position: absolute;
+	top: 115px;
+}
+
+.imgCasque {
+	position: absolute;
+	top: 800px;
+	left: 165px;
+}
+
+.rectangle2 {
+	height: 340px;
+	width: 540px;
+	background-color: white;;
+	position: absolute;
+	top: 970px;
+	left: 720px;
+}
+
+.texteTheLeader {
+	color: black;
+	font-family: Josefin Sans;
+	font-size: 50px;
+	position: absolute;
+	top: 80px;
+	left: 50px;
+}
+
+p {
+	color: grey;
+	font-family: Josefin Sans;
+	position: absolute;
+	top: 190px;
+	left: 55px;
+}
+
+.texteOurCreations {
+	color: black;
+	font-family: Josefin Sans;
+	font-size: 50px;
+	position: absolute;
+	top: 1430px;
+	left: 150px;
+}
+
+.boutonSeeAll {
+	width: 100px;
+	height: 25px;
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	position: absolute;
+	top: 1445px;
+	left: 1140px;
+	cursor: pointer;
+}
+
+.boutonSeeAll:hover {
+	background-color: black;
+}
+
+.texteSeeAll {
+	color: black;
+	font-family: Josefin Sans;
+	font-size: 13px;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 7px;
+	left: 17px;
+}
+
+.texteSeeAll:hover {
+	color: white;
+}
+
+.blocImages {
+	position: absolute;
+	top: 1540px;
+	left: 160px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.imageDeep, .imageNight, .imageSoccer, .imageGrid {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.above, .pocket, .curiosity, .fish {
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.imageDeep:hover {
+	background-color: white;
+	opacity: 40%;
+}  
+
+.imageGrid:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.imageNight:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.imageSoccer:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.above:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.pocket:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.curiosity:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.fish:hover {
+	background-color: white;
+	opacity: 40%;
+}
+
+.rectangleNoire {
+	height: 100px;
+	width: 1440px;
+	background-color: black;
+	position: absolute;
+	top: 2600px;
+	left: 0px;
+}
+
+.logo2 {
+	position: absolute;
+	top: 30px;
+	left: 145px;
+	width: 100px;
+	height: auto;
+}
+
+.logosReseaux {
+	position: absolute;
+	top:30px;
+	left: 1170px;
+	cursor: pointer;
+}
+
+
+.logoFb, .logoTwitter, .logoPinterest, .logoInstagram {
+	margin-right: 5px;
+	width: 13px;
+	height: auto;
+}
+
+.boutonFooter {
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	top: 60px;
+	left: 130px;
+	cursor: pointer;
+}
