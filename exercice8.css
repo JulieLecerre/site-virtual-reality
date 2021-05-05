@@ -4,18 +4,7 @@
 }
 
 body {
-	display: flex;
-	margin-right: none;
-}
-
-
-.boutonHeader {
-	color: white;
-	font-size: 15px;
-	position: absolute;
-	top: 60px;
-	left: 900px;
-	cursor: pointer;
+	/*display: flex;*/
 }
 
 a {
@@ -29,31 +18,6 @@ a:hover {
 	text-decoration-thickness: 3px;
 }
 
-.boutonAbout {
-	position: absolute;
-	left: 13px;
-}
-
-.boutonCareers {
-	position: absolute;
-	left: 59px;
-}
-
-.boutonEvents {
-	position: absolute;
-	left: 115px;
-}
-
-.boutonProducts {
-	position: absolute;
-	left: 165px;
-}
-
-.boutonSupport {
-	position: absolute;
-	left: 225px;
-}
-
 
 .header {
 	height: 650px;
@@ -61,10 +25,24 @@ a:hover {
 	background-image: url(images/image-hero.jpg);
 }
 
-.logo1 {
-	position: absolute;
+.boutonHeader {
+	color: white;
+	font-size: 15px;
+	width: 300px;
+	position: relative;
 	top: 50px;
-	left: 150px;
+	left: 900px;
+	cursor: pointer;
+}
+
+
+.boutonAbout, .boutonCareers, .boutonEvents, .boutonProducts, .boutonSupport {
+	margin-right: 10px;
+}
+
+.logo1 {
+	margin-top: 20px;
+	margin-left: 145px;
 }
 
 .rectangle1 {
@@ -72,10 +50,10 @@ a:hover {
 	width: 660px;
 	border-style: solid;
 	border-color: white;
-	position: absolute;
-	top: 180px;
-	left: 150px;
+	margin-top: 60px;
+	margin-left: 145px;
 }
+
 
 .texteHeader {
 	margin-top: 55px;
@@ -87,55 +65,41 @@ a:hover {
 	font-style: normal;
 }
 
-.texteExperiences {
-	position: absolute;
-	top: 75px;
-}
-
-.texteThat {
-	position: absolute;
-	top: 115px;
-}
-
-.imgCasque {
-	position: absolute;
-	top: 800px;
-	left: 165px;
-}
-
 .rectangle2 {
 	height: 340px;
 	width: 540px;
-	background-color: white;;
-	position: absolute;
-	top: 970px;
-	left: 720px;
+	background-color: white;
+	z-index: 10;
+	position: relative;
+	margin-top: -250px;
+	margin-left: 660px;
+	padding-top: 85px;
+	padding-left: 85px;
 }
+
+
+.imgCasque {
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
 
 .texteTheLeader {
 	color: black;
 	font-family: Josefin Sans;
 	font-size: 50px;
-	position: absolute;
-	top: 80px;
-	left: 50px;
 }
 
 p {
 	color: grey;
 	font-family: Josefin Sans;
-	position: absolute;
-	top: 190px;
-	left: 55px;
 }
 
 .texteOurCreations {
 	color: black;
 	font-family: Josefin Sans;
 	font-size: 50px;
-	position: absolute;
-	top: 1430px;
-	left: 150px;
+	margin-left: 140px;
 }
 
 .boutonSeeAll {
@@ -144,10 +108,12 @@ p {
 	background-color: white;
 	border-color: black;
 	border-style: solid;
-	position: absolute;
-	top: 1445px;
-	left: 1140px;
 	cursor: pointer;
+	padding-top:5px; 
+	text-align: center;
+	position: relative;
+	left: 1140px;
+	top: -40px;
 }
 
 .boutonSeeAll:hover  {
@@ -163,9 +129,6 @@ p {
 	font-family: Josefin Sans;
 	font-size: 13px;
 	letter-spacing: 2px;
-	position: absolute;
-	top: 7px;
-	left: 17px;
 }
 
 .texteSeeAll:hover {
@@ -173,9 +136,7 @@ p {
 }
 
 .blocImages {
-	position: absolute;
-	top: 1540px;
-	left: 160px;
+	margin-left: 150px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -191,6 +152,7 @@ p {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	cursor: pointer;
+	display: none;
 }
 
 .imageDeep {
@@ -284,7 +246,7 @@ p {
 .texteDeep {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
+	position: relative;
 	top: 365px;
 	left: 30px;
 }
@@ -292,83 +254,78 @@ p {
 .texteNight {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
+	position: relative;
 	top: 365px;
-	left: 310px;
+	left: 30px;
 }
 
 .texteSoccer {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
+	position: relative;
 	top: 365px;
-	left: 580px;
+	left: 30px;
 }
 
 .texteGrid {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
+	position: relative;
 	top: 365px;
-	left: 860px;
+	left: 30px;
 }
 
 .texteAbove {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
-	top: 830px;
+	position: relative;
+	top: 365px;
 	left: 30px;
 }
 
 .textePocket {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
-	top: 830px;
-	left: 310px;
+	position: relative;
+	top: 365px;
+	left: 30px;
 }
 
 .texteCuriosity {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
-	top: 830px;
-	left: 580px;
+	position: relative;
+	top: 365px;
+	left: 30px;
 }
 
 .texteFish {
 	font-size: 30px;
 	color: #e9e8e6;
-	position: absolute;
-	top: 830px;
-	left: 860px;
+	position: relative;
+	top: 365px;
+	left: 30px;
 }
 
 .rectangleNoire {
 	height: 100px;
 	width: 1440px;
 	background-color: black;
-	position: absolute;
-	top: 2600px;
-	left: 0px;
 }
 
 .logo2 {
-	position: absolute;
-	top: 30px;
-	left: 145px;
 	width: 100px;
 	height: auto;
+	margin-top: 35px;
+	margin-left: 150px;
 }
 
 .logosReseaux {
-	position: absolute;
-	top:30px;
-	left: 1170px;
-	cursor: pointer;
-}
 
+	cursor: pointer;
+	margin-top: -20px;
+	margin-left: 1150px;
+}
 
 .logoFb, .logoTwitter, .logoPinterest, .logoInstagram {
 	margin-right: 5px;
@@ -379,8 +336,11 @@ p {
 .boutonFooter {
 	color: white;
 	font-size: 14px;
-	position: absolute;
-	top: 60px;
-	left: 130px;
 	cursor: pointer;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.show {
+	display: block;
 }
