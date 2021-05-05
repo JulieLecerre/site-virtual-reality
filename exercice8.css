@@ -1,3 +1,8 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	display: flex;
 	margin-right: none;
@@ -178,10 +183,58 @@ p {
 	cursor: pointer;
 }
 
-.above, .pocket, .curiosity, .fish {
+.imageAbove, .imagePocket, .imageCuriosity, .imageFish {
 	margin-right: 20px;
 	margin-bottom: 20px;
 	cursor: pointer;
+}
+
+.imageDeep {
+	background-image: url("images/image-deep-earth.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imageNight {
+	background-image: url("images/image-night-arcade.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imageSoccer {
+	background-image: url("images/image-soccer-team.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imageGrid {
+	background-image: url("images/image-grid.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imageAbove {
+	background-image: url("images/image-from-above.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imagePocket {
+	background-image: url("images/image-pocket-borealis.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imageCuriosity {
+	background-image: url("images/image-curiosity.jpg");
+	height: 450px;
+	width : 256px;
+}
+
+.imageFish {
+	background-image: url("images/image-fisheye.jpg");
+	height: 450px;
+	width : 256px;
 }
 
 .imageDeep:hover {
@@ -204,24 +257,88 @@ p {
 	opacity: 40%;
 }
 
-.above:hover {
+.imageAbove:hover {
 	background-color: white;
 	opacity: 40%;
 }
 
-.pocket:hover {
+.imagePocket:hover {
 	background-color: white;
 	opacity: 40%;
 }
 
-.curiosity:hover {
+.imageCuriosity:hover {
 	background-color: white;
 	opacity: 40%;
 }
 
-.fish:hover {
+.imageFish:hover {
 	background-color: white;
 	opacity: 40%;
+}
+
+.texteDeep {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 365px;
+	left: 30px;
+}
+
+.texteNight {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 365px;
+	left: 310px;
+}
+
+.texteSoccer {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 365px;
+	left: 580px;
+}
+
+.texteGrid {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 365px;
+	left: 860px;
+}
+
+.texteAbove {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 830px;
+	left: 30px;
+}
+
+.textePocket {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 830px;
+	left: 310px;
+}
+
+.texteCuriosity {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 830px;
+	left: 580px;
+}
+
+.texteFish {
+	font-size: 30px;
+	color: #e9e8e6;
+	position: absolute;
+	top: 830px;
+	left: 860px;
 }
 
 .rectangleNoire {
