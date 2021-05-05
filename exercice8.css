@@ -150,8 +150,12 @@ p {
 	cursor: pointer;
 }
 
-.boutonSeeAll:hover {
+.boutonSeeAll:hover  {
 	background-color: black;
+}
+
+.boutonSeeAll:hover .texteSeeAll {
+	color: white;
 }
 
 .texteSeeAll {
